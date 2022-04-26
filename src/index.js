@@ -11,4 +11,4 @@ app.use(express.json());
 app.use(bodyFormatErrorMiddleware);
 app.use(appRouter);
 app.use(errorMiddleware);
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT || port);
