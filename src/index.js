@@ -11,4 +11,4 @@ app.use(express.json());
 app.use(bodyFormatErrorMiddleware);
 app.use(appRouter);
 app.use(errorMiddleware);
-app.listen(port, () => console.log(`Server is running listening port ${port}`));
+app.listen(process.env.PORT || 5000);
