@@ -7,7 +7,9 @@
   "scripts": {
     "start": "node src/index.js",
     "start:debug": "node --inspect src/index.js",
-    "start:dev": "nodemon --inspect src/index.js"
+    "start:dev": "nodemon --inspect src/index.js",
+    "test": "jest",
+    "test:dev": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
