@@ -23,4 +23,4 @@ npm run start:debug
 npm run start:dev
 
 ## TEST
-npm test
+npm run test:dev
