@@ -1,5 +1,5 @@
 import './common/orm.config.js';
-import 'src/app.js';
+import { app } from './app.js';
 
 const port = process.env.PORT || 3333;
 
