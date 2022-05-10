@@ -8,7 +8,8 @@
     "start": "node src/index.js",
     "start:debug": "node --inspect src/index.js",
     "start:dev": "nodemon --inspect src/index.js",
-    "test": "jest"
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+    "test:dev": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
