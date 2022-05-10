@@ -8,7 +8,7 @@
     "start": "node src/index.js",
     "start:debug": "node --inspect src/index.js",
     "start:dev": "nodemon --inspect src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/ykatakuri/nodejs-tp2#readme",
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.3"
   },
   "dependencies": {
     "express": "^4.17.3",
